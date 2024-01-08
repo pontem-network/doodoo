@@ -1,0 +1,14 @@
+[package]
+name = "DooDoo"
+version = "1.0.0"
+authors = []
+upgrade_policy="immutable"
+
+[addresses]
+doodoo="0x73eb84966be67e4697fc5ae75173ca6c35089e802650f75422ab49a8729704ec"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "mainnet"
+subdir = "aptos-move/framework/aptos-framework"
+
